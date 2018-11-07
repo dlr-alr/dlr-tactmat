@@ -1,6 +1,7 @@
 #lang scribble/manual
  
-@title{tactmat: DLR's Robotic Tactile Material Classification Dataset}
+@title{tactmat: @(linebreak
+                  )DLR's Robotic Tactile Material Classification Dataset}
  
 Here we provide the tactmat material dataset as used in our Humanoids 2018 paper. Please cite the paper as follows:
 @verbatim|{
@@ -15,7 +16,8 @@ Here we provide the tactmat material dataset as used in our Humanoids 2018 paper
 @itemlist[
  @item{@(hyperlink "./data/tactmat.h5" "tactmat.h5"): The compressed HDF5 file with two HDF5-Datasets
   @itemlist[
- @item{"samples": An array with dimensions [materials=36][samples=100][time_steps=1000][taxels-x=4][taxels-y=4]}
+ @item{"samples": An array with dimensions @(linebreak)
+    [materials=36][samples=100][time_steps=1000][taxels_x=4][taxels_y=4]}
  @item{"maerials": a list of the 36 material names}]}
  @item{@(hyperlink "./data/tactmat.py" "tactmat.py"): Small Python module for loading the dataset. @(linebreak)
   Example usage:
