@@ -3,7 +3,11 @@
 @title{tactmat: @(linebreak
                   )DLR's Robotic Tactile Material Classification Dataset}
  
-Here we provide the tactmat material dataset as used in our Humanoids 2018 paper. Please cite the paper as follows:
+Here we provide the tactmat material dataset as used in our Humanoids 2018 paper.
+
+Contact: @verbatim|{berthold.baeuml@dlr.de}|
+                    
+When using the data set, please cite our paper as follows:
 @verbatim|{
 @inproceedings{Tulbure2018,
   Author = {Andreea Tulbure and Berthold B{\"a}uml},
