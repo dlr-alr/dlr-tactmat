@@ -1,7 +1,7 @@
 #lang scribble/manual
  
-@title{tactmat: @(linebreak
-                  )DLR's Robotic Tactile Material Classification Dataset}
+@title{The TactMat Dataset: @(linebreak)
+ DLR's Robotic Tactile Material Classification Dataset}
  
 Here we provide the tactmat material dataset as used in our Humanoids 2018 paper.
 
